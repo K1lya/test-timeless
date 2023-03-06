@@ -1,0 +1,43 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 644px;
+    overflow: auto;
+}
+
+.row {
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    background: #181B22;
+    border: 1px solid rgba(207, 123, 90, 0.2);
+    border-radius: 12px;
+    gap: 5px;
+}
+
+.cell {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    overflow: hidden;
+}
+
+.cellName {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    overflow: hidden;
+}
