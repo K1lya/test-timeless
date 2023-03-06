@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scrollbar-color: var(--grey-color) rgba(207, 123, 90, 0.2);
+    scrollbar-width: thin;
+}
+
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    font: inherit;
+}
+
+*::-webkit-scrollbar {
+    background-color: var(--grey-color);
+    width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgba(207, 123, 90, 0.2);
+    border-radius: 5px;
+}

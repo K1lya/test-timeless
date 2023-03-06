@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-radius: 16px;
+    background: #13161D;
+    padding: 12px 17px;
+
+    /*min-width: 486px;*/
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #13161D;
+    color: #4c566a;
+    padding: 0 25px 20px 25px;
+    gap: 5px;
+}
+
+.columnHeader {
+    flex: 1;
+    text-align: center;
+    max-width: 150px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 644px;
+    overflow: auto;
+}
+
+.loaderContainer {
+    height: 644px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    background: #181B22;
+    border: 1px solid rgba(207, 123, 90, 0.2);
+    border-radius: 12px;
+    gap: 5px;
+}
+
+.cell {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    overflow: hidden;
+}
+
+.cellName {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    overflow: hidden;
+}

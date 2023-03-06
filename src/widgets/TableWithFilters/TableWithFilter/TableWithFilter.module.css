@@ -1,0 +1,22 @@
+.tableWithFilter {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.filtersContainer {
+    display: flex;
+    gap: 8px;
+}
+
+.paginationContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

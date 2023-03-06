@@ -1,0 +1,10 @@
+@import './variables/global.css';
+@import './reset.css';
+
+.app {
+    font-family: 'Jura', sans;
+    color: #DCD8D3;
+    min-height: 100vh;
+    background: var(--main-background);
+    min-width: 700px;
+}

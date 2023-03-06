@@ -1,0 +1,14 @@
+:root {
+    --main-background: #12141B;
+    --elements-background: #13161D;
+
+
+    --font-family-main: 'Jura', sans-serif;
+    --font-weight-500: 500;
+    --font-size-16: 16px;
+    --line-height-24: 24px;
+    --input-font: var(--font-weight-500) var(--font-size-16) / var(--line-height-24) var(--font-family-main) ;
+
+    --grey-color: #8C8988;
+    --text-color: #DCD8D3
+}
